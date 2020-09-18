@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <title>Module 2 Solution</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-light navbar-expand-sm">
+                <div class="container">
+                        <a href="#"class="navbar-brand"><h1>Food, LLC</h1></a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div id="collapsable-nav" class="collapse navbar-collapse">
+                            <ul id="nav-list"class="d-inline d-sm-none">
+                                <li id="nav-chicken" class="nav-item">
+                                    <a href="#chicken" class="nav-link">Chicken</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#beef" class="nav-link">Beef</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#sushi" class="nav-link">Sushi</a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <h2 >Our Menu</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 menu-contents">
+                    <div id="chicken" class="contents">
+                        <h4>Chicken</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Consequuntur, nulla quisquam illum consequatur molestiae totam debitis quas. 
+                                    Aperiam, facilis delectus? Illum, pariatur? 
+                                    Quas officiis ducimus eveniet officia veritatis perspiciatis neque!
+                        </p>
+                        <a href="#header-nav" class="d-block d-sm-none">Back to the top</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 menu-contents">
+                    <div id="beef" class="contents" >
+                        <h4>Beef</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Consequuntur, nulla quisquam illum consequatur molestiae totam debitis quas. 
+                            Aperiam, facilis delectus? Illum, pariatur? 
+                            Quas officiis ducimus eveniet officia veritatis perspiciatis neque!
+                        </p>
+                        <a href="#header-nav" class="d-block d-sm-none">Back to the top</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 menu-contents">
+                    <div id="sushi"class="contents" >
+                        <h4>Sushi</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Consequuntur, nulla quisquam illum consequatur molestiae totam debitis quas. 
+                            Aperiam, facilis delectus? Illum, pariatur? 
+                            Quas officiis ducimus eveniet officia veritatis perspiciatis neque!
+                        </p>
+                        <a href="#header-nav" class="d-block d-sm-none">Back to the top</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
 </html>
